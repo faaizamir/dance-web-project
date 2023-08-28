@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts 
+    script(src="static/index.js")
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content 
+    //- nav#navbar
+    //-         ul
+    //-             div#logo 
+    //-                 img(src="/static/img/logo.png")
+    //-                 | FDA
+    //-             li #[a(href='/') Home ]
+    //-             li #[a(href='/') About ]
+    //-             li #[a(href='/') Services ]
+    //-             li #[a(href='/') Contact Us]
+
+    section#intro 
+        | Welcome to Faaiz's Dance Acadmey!
+        div
+                | Eat Sleep Dance Repeat. 
+    
+    section#mission 
+            h1 Our Mission 
+            div.card 
+                h2 Dance Perfection!
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae architecto tempora iure dolore nostrum aspernatur assumenda accusamus atque hic rem, aliquid porro reiciendis! Saepe perspiciatis ea quam aperiam debitis minus tempora quibusdam, aliquam explicabo iure animi soluta voluptatibus, quas neque?
+            div.card 
+                h2 Dance Freely! 
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae architecto tempora iure dolore nostrum aspernatur assumenda accusamus atque hic rem, aliquid porro reiciendis! Saepe perspiciatis ea quam aperiam debitis minus tempora quibusdam, aliquam explicabo iure animi soluta voluptatibus, quas neque?
+            div.card 
+                h2 Expert Teaching
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae architecto tempora iure dolore nostrum aspernatur assumenda accusamus atque hic rem, aliquid porro reiciendis! Saepe perspiciatis ea quam aperiam debitis minus tempora quibusdam, aliquam explicabo iure animi soluta voluptatibus, quas neque?
+
+    section#sponsor 
+            h1 Our Sponsors 
+            div#sponsor-box
+                img(src="/static/img/logo1.png", alt="Sponsor Image" class="spimage")
+                img(src="/static/img/logo2.png", alt="Sponsor Image" class="spimage")
+                img(src="/static/img/logo3.png", alt="Sponsor Image" class="spimage")
+                img(src="/static/img/logo4.png", alt="Sponsor Image" class="spimage")
+

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* BODY STYLING  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* LOGO  */
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#logo img{
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+    filter: invert(1);
+}
+/* NAVBAR STYLING  */
+#navbar{
+    background-color: #716986;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    /* padding: 10px; */
+    /* justify-content: center; */
+}
+#navbar li{
+    padding-left: 20px;
+}
+#navbar li a{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+#navbar li a:hover{
+    color: black;
+}
+
+/* INTRO SECTION STYLING */
+
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: center / cover no-repeat url('/static/bg.jpg');
+    background-color: red;
+    height: 500px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    padding-bottom: 120px;
+}
+#intro div{
+    padding: 5px;
+    font-size: 1.5rem;
+}
+#intro div:hover{
+    color: #716986;
+}
+
+/* Mission Section Styling  */
+
+#mission{
+
+    height: 400px;
+    background-color: #8678a7;
+}
+#mission h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.card{
+    color: white;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 30%;
+    margin: 30px 30px;
+    height: 250px;
+    background: center / cover no-repeat url("/static/bg.jpg") ;
+}
+.card h2{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.card p{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* Sponsor Section Styling  */
+#sponsor{
+    height: 280px;
+    background-color: #6b608598;
+}
+#sponsor h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+
+}
+#sponsor-box{
+    height: 200px;
+    width: 1221px;
+    margin: auto;
+}
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+
+/* FOOTER STYLING  */
+#footer{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    display: flex;
+    color: white;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-weight: lighter;
+    /* font-family: 'Abril Fatface', cursive; */
+}
